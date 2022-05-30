@@ -1,0 +1,36 @@
+.product-list {
+    margin: 0;
+    background: rgb(240, 240, 240);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.product-list > * {
+    flex: 1 0 auto;
+    margin: 0 auto;
+}
+.products {
+    min-height: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;;
+}
+.product {
+    position: relative;
+    width: 80vw;
+    margin: 1rem;
+}
+.product > p {
+    margin: 1rem;
+    position: absolute;
+    color: white;
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+}
+.product > div{
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+}
